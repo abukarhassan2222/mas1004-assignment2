@@ -1,1 +1,1 @@
-python src/official.py --tag dropped --seed 0
+python src/official.py --tag dropped --seed 1

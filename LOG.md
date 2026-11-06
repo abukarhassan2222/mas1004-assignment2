@@ -38,3 +38,15 @@ while looking at the mistakes that the model made i noticed that it was having a
 Step 7: 
 Rule: I will drop pictures that were taken inside and those that pictures of humans, food, and misc things (plants, and animals). the reason why is because the model will have a hard time guessing the right city by using these types of images.
 Guess: by dropping these the model will have an easier time guessing than it has so far and score higher than the balanced mean of 0.5071.
+
+My request to agent: 
+Drop photos 3,7,9,13,14,16,18,24,29,32,34,35,36,38,39,41,48 from suspects_balanced_seed0_seoul_00,
+reason "indoors, people, food, plants or animals, no street".
+
+Drop photos 2,3,5,6,10,12,13,19,20,21,23,24,25,27,28,31,34,36,39,40,44,46,48 from suspects_balanced_seed0_busan_00, same reason.
+Drop photos 1,2,3,5,19,12,13,16,21,25,26,27,33,34,39,42,43,48 from suspects_balanced_seed0_osaka_00, same reason.
+Drop photos 4,5,8,11,18,27,28,30,31,33,40,41,42,43,44,45,48 from suspects_balanced_seed0_taipei_00, same reason.
+Drop photos 4,5,7,9,10,11,13,14,15,17,19,20,22,26,29,30,32,33,35,36,37,38,42,44,47,48 from suspects_balanced_seed0_tokyo_00, same reason.
+Then show me how many photos were dropped per city, and queue the
+balanced recipe with this selection for Colab with the tag dropped,
+seed 0.
