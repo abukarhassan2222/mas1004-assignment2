@@ -20,5 +20,11 @@ End the log with your plan for what to try next.
 - validation: 0.495 (seed 0), 0.488 (seed 1)
 - what it means: Strongest city: Tokyo. Weakest cities: Busan and Osaka. Guess for balanced: I think that the score for busan, osaka, and toyko will change since toyko has over 13 thousand photos while busan only has a little over 5 thousand. This could mean that if the model can see the same amount of pictures for each city the scores for each would change a lot.
 
-Plan: try balanced next (draw every city equally often).
+## 2026-11-05 balanced (Track A)
+- changed: draw every city equally often — in sample_weights, weight each photo 1 over its city's count
+- why: from my baseline guess: I think that the score for busan, osaka, and toyko will change since toyko has over 13 thousand photos while busan only has a little over 5 thousand.
+- validation: 0.507 (balanced mean of seeds 0.5047, 0.5096; baseline mean 0.491 of seeds 0.4948, 0.4881)
+- what it means: both balanced seeds (0.5047, 0.5096) beat both baseline seeds (0.4948, 0.4881), and the mean rose from 0.491 to 0.507 (+0.016): my guess that drawing every city equally often would change the scores was right, and it helped.
+
+Plan: try noflip next (remove left-right flips).
 
