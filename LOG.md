@@ -53,3 +53,7 @@ seed 0.
 
 the result: I orginally thought that the score will be higher than the balanced score . But it turns out after checking seed 0 that it scored 0.497 which is lower than the balanceds seed 0 score of 0.5047.
 the reason why: I only dropped 101 images which is only 0.2% of the total 44,257 images in total. This is not enough dropped images to really change anything, i would need to go though and hand pick thousands of images for there to be a major change. Therefore, cleaning this small amount of images did not work. I ran seed 1 to confirm. Seed 1 0.502 was also below balances' score. The avg between of the dropped seeds is 0.007 lower than the balanced which is right in the luck range for the model. 
+
+Track B: 
+first run: scored 0.487
+although this is lower than the inital score for track A there are similarties in that osaka and busan are the lowest scoring cities while tokyo is again the highest.
