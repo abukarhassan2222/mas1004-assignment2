@@ -1,2 +1,1 @@
-python src/train_b.py --tag b1-run2
-python src/train_b.py --tag b2-balanced-run2 --balance
+python src/train_b.py --tag b3-mnv3-448 --model mobilenet_v3_large --size 448 --balance

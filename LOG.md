@@ -56,7 +56,11 @@ the reason why: I only dropped 101 images which is only 0.2% of the total 44,257
 
 Track B: 
 first run: scored 0.487
-although this is lower than the inital score for track A there are similarties in that osaka and busan are the lowest scoring cities while tokyo is again the highest.
+although this is lower than the inital score for track A there are similarties in that osaka and busan are the lowest scoring cities while tokyo is again the highest. I ran this again and got 0.481
 
 Track B 1 change: 
 Im using balance again since this change showed the most change in track A and I want to see how it will fair in track B as well. I expect osaka and busan to go up again while tokyo goes down. I also think that this change will increase the scorse of 0.487
+The results: as expected the results were similar to Track A as tokyo went down while busan and osaka went up. I ran two balanced runs with scores of 0.497 and 0.494 which both beat the starter runs.
+
+Track B 2 Change: 
+Im going with MobileNetV3. The reason why im picking this as my second change is beacuse while reading the "readme" section of the assignment it stated that MobileNetV3 is a smaller model but it uses a bigger image size (448). This made me think that the image will be clearer since the images are bigger. This would mean that the model will have a clear look at each image and could have a higher score than the balanced score. I also switched to MobileNetV3 since with bigger images sizes ResNet18 will go over the 2 billion limit unlike MobileNetV3.
