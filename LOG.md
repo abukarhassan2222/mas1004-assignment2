@@ -27,4 +27,9 @@ End the log with your plan for what to try next.
 - what it means: both balanced seeds (0.5047, 0.5096) beat both baseline seeds (0.4948, 0.4881), and the mean rose from 0.491 to 0.507 (+0.016): my guess that drawing every city equally often would change the scores was right, and it helped.
 
 Plan: try noflip next (remove left-right flips).
+the result: the validation score was :0.502 
+comparing it to my balanced rate of 0.5047 the difference is 0.0027 is less than my luck range of 0.007 I got from my baseline. This means nothing really changed. So i will be using the balanced recipe with the flip
 
+
+
+while looking at the mistakes that the model made i noticed that it was having a hard time with historical buildings. Another thing that was common throughout these images were cars. These images of cars/vehicals were taken from a side profile so the model had no idea where it was actually taken.
