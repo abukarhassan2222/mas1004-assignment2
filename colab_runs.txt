@@ -1,1 +1,2 @@
-python src/train_b.py --tag b3-mnv3-448 --model mobilenet_v3_large --size 448 --balance
+python src/train_b.py --tag b3-mnv3-448-run2 --model mobilenet_v3_large --size 448 --balance --submit
+python src/check_submission.py --no-val

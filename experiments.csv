@@ -11,3 +11,4 @@ finished,track,tag,seed,official_budget,budget,val_score,seoul,busan,tokyo,osaka
 2026-11-06T18:47:44,B,b2-balanced,,,176896,0.4971,0.4842,0.4295,0.4981,0.4441,0.6295,290.1,cuda,resnet18 224px; data/starter/train,,,be4bc82
 2026-11-06T19:09:39,B,b1-run2,,,176896,0.4809,0.5885,0.3655,0.6114,0.3449,0.494,290.3,cuda,resnet18 224px; data/starter/train,,,871abc3
 2026-11-06T19:14:53,B,b2-balanced-run2,,,176896,0.4944,0.5092,0.4432,0.5125,0.4469,0.56,290.0,cuda,resnet18 224px; data/starter/train,,,871abc3
+2026-11-06T20:17:35,B,b3-mnv3-448,,,176896,0.5679,0.5507,0.5,0.6035,0.5367,0.6487,602.7,cuda,mobilenet_v3_large 448px; data/starter/train,,,f169456
