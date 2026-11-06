@@ -1,2 +1,2 @@
-python src/train_b.py --tag b2-balanced --submit --balance
-python src/check_submission.py --no-val
+python src/train_b.py --tag b1-run2
+python src/train_b.py --tag b2-balanced-run2 --balance
