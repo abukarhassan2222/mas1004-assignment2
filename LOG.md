@@ -50,3 +50,6 @@ Drop photos 4,5,7,9,10,11,13,14,15,17,19,20,22,26,29,30,32,33,35,36,37,38,42,44,
 Then show me how many photos were dropped per city, and queue the
 balanced recipe with this selection for Colab with the tag dropped,
 seed 0.
+
+the result: I orginally thought that the score will be higher than the balanced score . But it turns out after checking seed 0 that it scored 0.497 which is lower than the balanceds seed 0 score of 0.5047.
+the reason why: I only dropped 101 images which is only 0.2% of the total 44,257 images in total. This is not enough dropped images to really change anything, i would need to go though and hand pick thousands of images for there to be a major change. Therefore, cleaning this small amount of images did not work. I ran seed 1 to confirm. Seed 1 0.502 was also below balances' score. The avg between of the dropped seeds is 0.007 lower than the balanced which is right in the luck range for the model. 
