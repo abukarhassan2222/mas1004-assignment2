@@ -57,3 +57,6 @@ the reason why: I only dropped 101 images which is only 0.2% of the total 44,257
 Track B: 
 first run: scored 0.487
 although this is lower than the inital score for track A there are similarties in that osaka and busan are the lowest scoring cities while tokyo is again the highest.
+
+Track B 1 change: 
+Im using balance again since this change showed the most change in track A and I want to see how it will fair in track B as well. I expect osaka and busan to go up again while tokyo goes down. I also think that this change will increase the scorse of 0.487

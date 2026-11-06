@@ -1,3 +1,2 @@
-python src/official.py --tag dropped --seed 1
-python src/train_b.py --tag b1 --submit
+python src/train_b.py --tag b2-balanced --submit --balance
 python src/check_submission.py --no-val
